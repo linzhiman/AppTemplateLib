@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC400F641EC0691C0091F44F /* ATHashUtils.m */; };
+		DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC400F651EC0691C0091F44F /* ATNetworkInfo.m */; };
+		DC400F691EC15E360091F44F /* ATHashUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC400F631EC0691C0091F44F /* ATHashUtils.h */; };
+		DC400F6A1EC15E360091F44F /* ATNetworkInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC400F661EC0691C0091F44F /* ATNetworkInfo.h */; };
+		DC400F6B1EC15E360091F44F /* ATAppUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA31EA4C8DE009168B7 /* ATAppUtils.h */; };
+		DC400F6C1EC15E360091F44F /* ATDateUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */; };
+		DC400F6D1EC15E360091F44F /* ATGlobalMacro.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */; };
+		DC400F6E1EC15E360091F44F /* ATImageUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */; };
+		DC400F6F1EC15E360091F44F /* ATNotificationUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */; };
+		DC400F701EC15E360091F44F /* ATAppModel.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */; };
+		DC400F711EC15E360091F44F /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */; };
+		DC400F721EC15E360091F44F /* ATModelBase.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */; };
+		DC400F731EC15E360091F44F /* ATModelConfigProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */; };
+		DC400F741EC15E360091F44F /* ATModelManagerProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD31EA4C8DE009168B7 /* ATModelManagerProtocol.h */; };
+		DC400F751EC15E360091F44F /* ATModelProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD41EA4C8DE009168B7 /* ATModelProtocol.h */; };
+		DC503FDA1EA4C8DE009168B7 /* ATAppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FA41EA4C8DE009168B7 /* ATAppUtils.m */; };
+		DC503FDB1EA4C8DE009168B7 /* ATFluidController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FA61EA4C8DE009168B7 /* ATFluidController.m */; };
+		DC503FDC1EA4C8DE009168B7 /* ATImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */; };
+		DC503FDD1EA4C8DE009168B7 /* ATNotificationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FAB1EA4C8DE009168B7 /* ATNotificationUtils.m */; };
+		DC503FDE1EA4C8DE009168B7 /* ATUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FAD1EA4C8DE009168B7 /* ATUserDefaults.m */; };
+		DC503FDF1EA4C8DE009168B7 /* ATHttpGet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FB11EA4C8DE009168B7 /* ATHttpGet.m */; };
+		DC503FE01EA4C8DE009168B7 /* ATHttpMultipartPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FB31EA4C8DE009168B7 /* ATHttpMultipartPost.m */; };
+		DC503FE11EA4C8DE009168B7 /* ATHttpPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FB51EA4C8DE009168B7 /* ATHttpPost.m */; };
+		DC503FE21EA4C8DE009168B7 /* ATHttpQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FB71EA4C8DE009168B7 /* ATHttpQueue.m */; };
+		DC503FE31EA4C8DE009168B7 /* ATHttpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FB91EA4C8DE009168B7 /* ATHttpTask.m */; };
+		DC503FE41EA4C8DE009168B7 /* ATHttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FBB1EA4C8DE009168B7 /* ATHttpUtils.m */; };
+		DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FBD1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m */; };
+		DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FC11EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m */; };
+		DC503FE91EA4C8DE009168B7 /* ATAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */; };
+		DC503FEA1EA4C8DE009168B7 /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */; };
+		DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */; };
+		DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD21EA4C8DE009168B7 /* ATModelManager.m */; };
+		DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */; };
+		DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */; };
+		DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC503F8E1EA4C7B9009168B7 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/yysdkwrapper;
+			dstSubfolderSpec = 16;
+			files = (
+				DC400F691EC15E360091F44F /* ATHashUtils.h in Copy Files */,
+				DC400F6A1EC15E360091F44F /* ATNetworkInfo.h in Copy Files */,
+				DC400F6B1EC15E360091F44F /* ATAppUtils.h in Copy Files */,
+				DC400F6C1EC15E360091F44F /* ATDateUtils.h in Copy Files */,
+				DC400F6D1EC15E360091F44F /* ATGlobalMacro.h in Copy Files */,
+				DC400F6E1EC15E360091F44F /* ATImageUtils.h in Copy Files */,
+				DC400F6F1EC15E360091F44F /* ATNotificationUtils.h in Copy Files */,
+				DC400F701EC15E360091F44F /* ATAppModel.h in Copy Files */,
+				DC400F711EC15E360091F44F /* ATLogHelper.h in Copy Files */,
+				DC400F721EC15E360091F44F /* ATModelBase.h in Copy Files */,
+				DC400F731EC15E360091F44F /* ATModelConfigProtocol.h in Copy Files */,
+				DC400F741EC15E360091F44F /* ATModelManagerProtocol.h in Copy Files */,
+				DC400F751EC15E360091F44F /* ATModelProtocol.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC400F631EC0691C0091F44F /* ATHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHashUtils.h; sourceTree = "<group>"; };
+		DC400F641EC0691C0091F44F /* ATHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHashUtils.m; sourceTree = "<group>"; };
+		DC400F651EC0691C0091F44F /* ATNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNetworkInfo.m; sourceTree = "<group>"; };
+		DC400F661EC0691C0091F44F /* ATNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNetworkInfo.h; sourceTree = "<group>"; };
+		DC503F901EA4C7B9009168B7 /* libAppTemplateLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppTemplateLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC503FA31EA4C8DE009168B7 /* ATAppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAppUtils.h; sourceTree = "<group>"; };
+		DC503FA41EA4C8DE009168B7 /* ATAppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAppUtils.m; sourceTree = "<group>"; };
+		DC503FA51EA4C8DE009168B7 /* ATFluidController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFluidController.h; sourceTree = "<group>"; };
+		DC503FA61EA4C8DE009168B7 /* ATFluidController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFluidController.m; sourceTree = "<group>"; };
+		DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATGlobalMacro.h; sourceTree = "<group>"; };
+		DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATImageUtils.h; sourceTree = "<group>"; };
+		DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATImageUtils.m; sourceTree = "<group>"; };
+		DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATNotificationUtils.h; sourceTree = "<group>"; };
+		DC503FAB1EA4C8DE009168B7 /* ATNotificationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNotificationUtils.m; sourceTree = "<group>"; };
+		DC503FAC1EA4C8DE009168B7 /* ATUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATUserDefaults.h; sourceTree = "<group>"; };
+		DC503FAD1EA4C8DE009168B7 /* ATUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATUserDefaults.m; sourceTree = "<group>"; };
+		DC503FAF1EA4C8DE009168B7 /* ATHttpDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpDefines.h; sourceTree = "<group>"; };
+		DC503FB01EA4C8DE009168B7 /* ATHttpGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpGet.h; sourceTree = "<group>"; };
+		DC503FB11EA4C8DE009168B7 /* ATHttpGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpGet.m; sourceTree = "<group>"; };
+		DC503FB21EA4C8DE009168B7 /* ATHttpMultipartPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpMultipartPost.h; sourceTree = "<group>"; };
+		DC503FB31EA4C8DE009168B7 /* ATHttpMultipartPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpMultipartPost.m; sourceTree = "<group>"; };
+		DC503FB41EA4C8DE009168B7 /* ATHttpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpPost.h; sourceTree = "<group>"; };
+		DC503FB51EA4C8DE009168B7 /* ATHttpPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpPost.m; sourceTree = "<group>"; };
+		DC503FB61EA4C8DE009168B7 /* ATHttpQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpQueue.h; sourceTree = "<group>"; };
+		DC503FB71EA4C8DE009168B7 /* ATHttpQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpQueue.m; sourceTree = "<group>"; };
+		DC503FB81EA4C8DE009168B7 /* ATHttpTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpTask.h; sourceTree = "<group>"; };
+		DC503FB91EA4C8DE009168B7 /* ATHttpTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpTask.m; sourceTree = "<group>"; };
+		DC503FBA1EA4C8DE009168B7 /* ATHttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHttpUtils.h; sourceTree = "<group>"; };
+		DC503FBB1EA4C8DE009168B7 /* ATHttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHttpUtils.m; sourceTree = "<group>"; };
+		DC503FBC1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONSafeGet.h"; sourceTree = "<group>"; };
+		DC503FBD1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONSafeGet.m"; sourceTree = "<group>"; };
+		DC503FBF1EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATWebViewJavaScriptBridge.h; sourceTree = "<group>"; };
+		DC503FC01EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ATWebViewJavaScriptBridge.html; sourceTree = "<group>"; };
+		DC503FC11EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATWebViewJavaScriptBridge.m; sourceTree = "<group>"; };
+		DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAppModel.h; sourceTree = "<group>"; };
+		DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAppModel.m; sourceTree = "<group>"; };
+		DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
+		DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
+		DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelBase.h; sourceTree = "<group>"; };
+		DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATModelBase.m; sourceTree = "<group>"; };
+		DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelConfigProtocol.h; sourceTree = "<group>"; };
+		DC503FD11EA4C8DE009168B7 /* ATModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelManager.h; sourceTree = "<group>"; };
+		DC503FD21EA4C8DE009168B7 /* ATModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATModelManager.m; sourceTree = "<group>"; };
+		DC503FD31EA4C8DE009168B7 /* ATModelManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelManagerProtocol.h; sourceTree = "<group>"; };
+		DC503FD41EA4C8DE009168B7 /* ATModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelProtocol.h; sourceTree = "<group>"; };
+		DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelDialogView.h; sourceTree = "<group>"; };
+		DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATModelDialogView.m; sourceTree = "<group>"; };
+		DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATResourceLoader.m; sourceTree = "<group>"; };
+		DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATResourceLoader.h; sourceTree = "<group>"; };
+		DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDateUtils.h; sourceTree = "<group>"; };
+		DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDateUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC503F8D1EA4C7B9009168B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC503F871EA4C7B9009168B7 = {
+			isa = PBXGroup;
+			children = (
+				DC503F921EA4C7B9009168B7 /* AppTemplateLib */,
+				DC503F911EA4C7B9009168B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC503F911EA4C7B9009168B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC503F901EA4C7B9009168B7 /* libAppTemplateLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC503F921EA4C7B9009168B7 /* AppTemplateLib */ = {
+			isa = PBXGroup;
+			children = (
+				DC503FA21EA4C8DE009168B7 /* Utility */,
+				DC503FC91EA4C8DE009168B7 /* Model */,
+				DC503FD71EA4C8DE009168B7 /* UI */,
+			);
+			path = AppTemplateLib;
+			sourceTree = "<group>";
+		};
+		DC503FA21EA4C8DE009168B7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DC400F631EC0691C0091F44F /* ATHashUtils.h */,
+				DC400F641EC0691C0091F44F /* ATHashUtils.m */,
+				DC400F651EC0691C0091F44F /* ATNetworkInfo.m */,
+				DC400F661EC0691C0091F44F /* ATNetworkInfo.h */,
+				DC503FA31EA4C8DE009168B7 /* ATAppUtils.h */,
+				DC503FA41EA4C8DE009168B7 /* ATAppUtils.m */,
+				DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */,
+				DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */,
+				DC503FA51EA4C8DE009168B7 /* ATFluidController.h */,
+				DC503FA61EA4C8DE009168B7 /* ATFluidController.m */,
+				DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */,
+				DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */,
+				DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */,
+				DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */,
+				DC503FAB1EA4C8DE009168B7 /* ATNotificationUtils.m */,
+				DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */,
+				DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */,
+				DC503FAC1EA4C8DE009168B7 /* ATUserDefaults.h */,
+				DC503FAD1EA4C8DE009168B7 /* ATUserDefaults.m */,
+				DC503FAE1EA4C8DE009168B7 /* Http */,
+				DC503FBC1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.h */,
+				DC503FBD1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m */,
+				DC503FBE1EA4C8DE009168B7 /* WebView */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		DC503FAE1EA4C8DE009168B7 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				DC503FAF1EA4C8DE009168B7 /* ATHttpDefines.h */,
+				DC503FB01EA4C8DE009168B7 /* ATHttpGet.h */,
+				DC503FB11EA4C8DE009168B7 /* ATHttpGet.m */,
+				DC503FB21EA4C8DE009168B7 /* ATHttpMultipartPost.h */,
+				DC503FB31EA4C8DE009168B7 /* ATHttpMultipartPost.m */,
+				DC503FB41EA4C8DE009168B7 /* ATHttpPost.h */,
+				DC503FB51EA4C8DE009168B7 /* ATHttpPost.m */,
+				DC503FB61EA4C8DE009168B7 /* ATHttpQueue.h */,
+				DC503FB71EA4C8DE009168B7 /* ATHttpQueue.m */,
+				DC503FB81EA4C8DE009168B7 /* ATHttpTask.h */,
+				DC503FB91EA4C8DE009168B7 /* ATHttpTask.m */,
+				DC503FBA1EA4C8DE009168B7 /* ATHttpUtils.h */,
+				DC503FBB1EA4C8DE009168B7 /* ATHttpUtils.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		DC503FBE1EA4C8DE009168B7 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				DC503FBF1EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.h */,
+				DC503FC01EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.html */,
+				DC503FC11EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		DC503FC91EA4C8DE009168B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */,
+				DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */,
+				DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */,
+				DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */,
+				DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */,
+				DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */,
+				DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */,
+				DC503FD11EA4C8DE009168B7 /* ATModelManager.h */,
+				DC503FD21EA4C8DE009168B7 /* ATModelManager.m */,
+				DC503FD31EA4C8DE009168B7 /* ATModelManagerProtocol.h */,
+				DC503FD41EA4C8DE009168B7 /* ATModelProtocol.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC503FD71EA4C8DE009168B7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */,
+				DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC503F8F1EA4C7B9009168B7 /* AppTemplateLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC503F991EA4C7B9009168B7 /* Build configuration list for PBXNativeTarget "AppTemplateLib" */;
+			buildPhases = (
+				DC503F8C1EA4C7B9009168B7 /* Sources */,
+				DC503F8D1EA4C7B9009168B7 /* Frameworks */,
+				DC503F8E1EA4C7B9009168B7 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppTemplateLib;
+			productName = AppTemplateLib;
+			productReference = DC503F901EA4C7B9009168B7 /* libAppTemplateLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC503F881EA4C7B9009168B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhiniu;
+				TargetAttributes = {
+					DC503F8F1EA4C7B9009168B7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC503F8B1EA4C7B9009168B7 /* Build configuration list for PBXProject "AppTemplateLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC503F871EA4C7B9009168B7;
+			productRefGroup = DC503F911EA4C7B9009168B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC503F8F1EA4C7B9009168B7 /* AppTemplateLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC503F8C1EA4C7B9009168B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */,
+				DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */,
+				DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */,
+				DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */,
+				DC503FDE1EA4C8DE009168B7 /* ATUserDefaults.m in Sources */,
+				DC503FDA1EA4C8DE009168B7 /* ATAppUtils.m in Sources */,
+				DC503FE11EA4C8DE009168B7 /* ATHttpPost.m in Sources */,
+				DC503FE31EA4C8DE009168B7 /* ATHttpTask.m in Sources */,
+				DC503FE01EA4C8DE009168B7 /* ATHttpMultipartPost.m in Sources */,
+				DC503FE41EA4C8DE009168B7 /* ATHttpUtils.m in Sources */,
+				DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */,
+				DC503FE21EA4C8DE009168B7 /* ATHttpQueue.m in Sources */,
+				DC503FDD1EA4C8DE009168B7 /* ATNotificationUtils.m in Sources */,
+				DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */,
+				DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */,
+				DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */,
+				DC503FEA1EA4C8DE009168B7 /* ATLogHelper.m in Sources */,
+				DC503FDC1EA4C8DE009168B7 /* ATImageUtils.m in Sources */,
+				DC503FDB1EA4C8DE009168B7 /* ATFluidController.m in Sources */,
+				DC503FDF1EA4C8DE009168B7 /* ATHttpGet.m in Sources */,
+				DC503FE91EA4C8DE009168B7 /* ATAppModel.m in Sources */,
+				DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC503F971EA4C7B9009168B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC503F981EA4C7B9009168B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC503F9A1EA4C7B9009168B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC503F9B1EA4C7B9009168B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC503F8B1EA4C7B9009168B7 /* Build configuration list for PBXProject "AppTemplateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC503F971EA4C7B9009168B7 /* Debug */,
+				DC503F981EA4C7B9009168B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC503F991EA4C7B9009168B7 /* Build configuration list for PBXNativeTarget "AppTemplateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC503F9A1EA4C7B9009168B7 /* Debug */,
+				DC503F9B1EA4C7B9009168B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC503F881EA4C7B9009168B7 /* Project object */;
+}
