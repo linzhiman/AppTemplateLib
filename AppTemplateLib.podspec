@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AppTemplateLib"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "AppTemplateLib for quick start."
   s.homepage     = "https://github.com/linzhiman/AppTemplateLib"
   s.license      = "MIT"
@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.subspec 'Model' do |sp|
       sp.source_files = "AppTemplateLib/Model/*.{h,m}"
       sp.dependency "AppTemplateLib/Utility"
-      sp.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'ATAppTemplateLibModel' }
   end
   s.subspec 'UI' do |sp|
       sp.source_files = "AppTemplateLib/UI/*.{h,m}"

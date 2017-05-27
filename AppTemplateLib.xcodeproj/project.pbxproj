@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3C086F1ED980FB00187ACA /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C086E1ED980FB00187ACA /* ATLogHelper.m */; };
+		DC3C08701ED981EA00187ACA /* ATFluidController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA51EA4C8DE009168B7 /* ATFluidController.h */; };
+		DC3C08711ED981EA00187ACA /* ATLogProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */; };
+		DC3C08721ED981EA00187ACA /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC3C086D1ED980FB00187ACA /* ATLogHelper.h */; };
+		DC3C08731ED981EA00187ACA /* ATResourceLoader.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */; };
+		DC3C08741ED981EA00187ACA /* ATUserDefaults.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FAC1EA4C8DE009168B7 /* ATUserDefaults.h */; };
+		DC3C08751ED981EA00187ACA /* NSDictionary+JSONSafeGet.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FBC1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.h */; };
+		DC3C08761ED981EA00187ACA /* ATWebViewJavaScriptBridge.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FBF1EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.h */; };
 		DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DC400F641EC0691C0091F44F /* ATHashUtils.m */; };
 		DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DC400F651EC0691C0091F44F /* ATNetworkInfo.m */; };
 		DC400F691EC15E360091F44F /* ATHashUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC400F631EC0691C0091F44F /* ATHashUtils.h */; };
@@ -17,7 +25,6 @@
 		DC400F6E1EC15E360091F44F /* ATImageUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */; };
 		DC400F6F1EC15E360091F44F /* ATNotificationUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */; };
 		DC400F701EC15E360091F44F /* ATAppModel.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */; };
-		DC400F711EC15E360091F44F /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */; };
 		DC400F721EC15E360091F44F /* ATModelBase.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */; };
 		DC400F731EC15E360091F44F /* ATModelConfigProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */; };
 		DC400F741EC15E360091F44F /* ATModelManagerProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD31EA4C8DE009168B7 /* ATModelManagerProtocol.h */; };
@@ -36,7 +43,6 @@
 		DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FBD1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m */; };
 		DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FC11EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m */; };
 		DC503FE91EA4C8DE009168B7 /* ATAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */; };
-		DC503FEA1EA4C8DE009168B7 /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */; };
 		DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */; };
 		DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD21EA4C8DE009168B7 /* ATModelManager.m */; };
 		DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */; };
@@ -51,6 +57,13 @@
 			dstPath = include/yysdkwrapper;
 			dstSubfolderSpec = 16;
 			files = (
+				DC3C08701ED981EA00187ACA /* ATFluidController.h in Copy Files */,
+				DC3C08711ED981EA00187ACA /* ATLogProtocol.h in Copy Files */,
+				DC3C08721ED981EA00187ACA /* ATLogHelper.h in Copy Files */,
+				DC3C08731ED981EA00187ACA /* ATResourceLoader.h in Copy Files */,
+				DC3C08741ED981EA00187ACA /* ATUserDefaults.h in Copy Files */,
+				DC3C08751ED981EA00187ACA /* NSDictionary+JSONSafeGet.h in Copy Files */,
+				DC3C08761ED981EA00187ACA /* ATWebViewJavaScriptBridge.h in Copy Files */,
 				DC400F691EC15E360091F44F /* ATHashUtils.h in Copy Files */,
 				DC400F6A1EC15E360091F44F /* ATNetworkInfo.h in Copy Files */,
 				DC400F6B1EC15E360091F44F /* ATAppUtils.h in Copy Files */,
@@ -59,7 +72,6 @@
 				DC400F6E1EC15E360091F44F /* ATImageUtils.h in Copy Files */,
 				DC400F6F1EC15E360091F44F /* ATNotificationUtils.h in Copy Files */,
 				DC400F701EC15E360091F44F /* ATAppModel.h in Copy Files */,
-				DC400F711EC15E360091F44F /* ATLogHelper.h in Copy Files */,
 				DC400F721EC15E360091F44F /* ATModelBase.h in Copy Files */,
 				DC400F731EC15E360091F44F /* ATModelConfigProtocol.h in Copy Files */,
 				DC400F741EC15E360091F44F /* ATModelManagerProtocol.h in Copy Files */,
@@ -71,6 +83,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogProtocol.h; sourceTree = "<group>"; };
+		DC3C086D1ED980FB00187ACA /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
+		DC3C086E1ED980FB00187ACA /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
 		DC400F631EC0691C0091F44F /* ATHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHashUtils.h; sourceTree = "<group>"; };
 		DC400F641EC0691C0091F44F /* ATHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHashUtils.m; sourceTree = "<group>"; };
 		DC400F651EC0691C0091F44F /* ATNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNetworkInfo.m; sourceTree = "<group>"; };
@@ -107,8 +122,6 @@
 		DC503FC11EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATWebViewJavaScriptBridge.m; sourceTree = "<group>"; };
 		DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAppModel.h; sourceTree = "<group>"; };
 		DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAppModel.m; sourceTree = "<group>"; };
-		DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
-		DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
 		DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelBase.h; sourceTree = "<group>"; };
 		DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATModelBase.m; sourceTree = "<group>"; };
 		DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelConfigProtocol.h; sourceTree = "<group>"; };
@@ -175,6 +188,9 @@
 				DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */,
 				DC503FA51EA4C8DE009168B7 /* ATFluidController.h */,
 				DC503FA61EA4C8DE009168B7 /* ATFluidController.m */,
+				DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */,
+				DC3C086D1ED980FB00187ACA /* ATLogHelper.h */,
+				DC3C086E1ED980FB00187ACA /* ATLogHelper.m */,
 				DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */,
 				DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */,
 				DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */,
@@ -226,8 +242,6 @@
 			children = (
 				DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */,
 				DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */,
-				DC503FCC1EA4C8DE009168B7 /* ATLogHelper.h */,
-				DC503FCD1EA4C8DE009168B7 /* ATLogHelper.m */,
 				DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */,
 				DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */,
 				DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */,
@@ -306,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */,
+				DC3C086F1ED980FB00187ACA /* ATLogHelper.m in Sources */,
 				DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */,
 				DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */,
 				DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */,
@@ -321,7 +336,6 @@
 				DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */,
 				DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */,
 				DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */,
-				DC503FEA1EA4C8DE009168B7 /* ATLogHelper.m in Sources */,
 				DC503FDC1EA4C8DE009168B7 /* ATImageUtils.m in Sources */,
 				DC503FDB1EA4C8DE009168B7 /* ATFluidController.m in Sources */,
 				DC503FDF1EA4C8DE009168B7 /* ATHttpGet.m in Sources */,
@@ -429,7 +443,6 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					ATAppTemplateLibModel,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -443,7 +456,7 @@
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_BITCODE = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = ATAppTemplateLibModel;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

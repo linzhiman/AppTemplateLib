@@ -7,10 +7,7 @@
 //
 
 #import "ATNotificationUtils.h"
-
-#ifdef ATAppTemplateLibModel
 #import "ATLogHelper.h"
-#endif
 
 #define ATStringFromObjectName(atName) @#atName
 
@@ -27,13 +24,8 @@
 
 //Log
 
-#ifdef ATAppTemplateLibModel
 #define ATLog(atTag, atLevel, atFormat, ...) \
         [[ATLogHelper sharedObject] logWithTag:atTag level:atLevel function:__func__ file:__FILE__ line:__LINE__ content:atFormat, ##__VA_ARGS__];
-#else
-#define ATLog(atTag, atLevel, atFormat, ...)
-#endif
-
 #define ATLogImportant(atTag, atFormat, ...) \
         ATLog(atTag, ATLogLevel_Important, atFormat, ##__VA_ARGS__)
 #define ATLogError(atTag, atFormat, ...) \
