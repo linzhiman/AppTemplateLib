@@ -9,14 +9,14 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/linzhiman/AppTemplateLib.git", :tag => "#{s.version}" }
   s.default_subspecs = "Utility", "Model", "UI"
   s.subspec 'Utility' do |sp|
-      sp.source_files = "AppTemplateLib/Utility/*.{h,m}"
+      sp.source_files = "AppTemplateLib/Utility/**/*.{h,m}"
   end
   s.subspec 'Model' do |sp|
-      sp.source_files = "AppTemplateLib/Model/*.{h,m}"
+      sp.source_files = "AppTemplateLib/Model/**/*.{h,m}"
       sp.dependency "AppTemplateLib/Utility"
   end
   s.subspec 'UI' do |sp|
-      sp.source_files = "AppTemplateLib/UI/*.{h,m}"
+      sp.source_files = "AppTemplateLib/UI/**/*.{h,m}"
       sp.dependency "AppTemplateLib/Utility"
   end
 end
