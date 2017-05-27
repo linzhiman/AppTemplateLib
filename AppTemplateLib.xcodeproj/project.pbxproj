@@ -164,6 +164,7 @@
 		DC503FA21EA4C8DE009168B7 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */,
 				DC400F631EC0691C0091F44F /* ATHashUtils.h */,
 				DC400F641EC0691C0091F44F /* ATHashUtils.m */,
 				DC400F651EC0691C0091F44F /* ATNetworkInfo.m */,
@@ -174,7 +175,6 @@
 				DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */,
 				DC503FA51EA4C8DE009168B7 /* ATFluidController.h */,
 				DC503FA61EA4C8DE009168B7 /* ATFluidController.m */,
-				DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */,
 				DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */,
 				DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */,
 				DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */,
@@ -427,7 +427,10 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					ATAppTemplateLibModel,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -439,7 +442,10 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					ATAppTemplateLibModel,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

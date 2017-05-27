@@ -6,7 +6,7 @@
 //  Copyright (c) 2013年 YY Inc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  * 网络状态发生变化通知
