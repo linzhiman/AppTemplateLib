@@ -1,0 +1,12 @@
+PODS:
+  - AppTemplateLib (0.0.2)
+
+DEPENDENCIES:
+  - AppTemplateLib (= 0.0.2)
+
+SPEC CHECKSUMS:
+  AppTemplateLib: a106fccf631732c67bb3e4c2e20fdfe7f92203d5
+
+PODFILE CHECKSUM: 17251b57a14674b65fe58d7dded01a5c6b8389b2
+
+COCOAPODS: 1.0.1
