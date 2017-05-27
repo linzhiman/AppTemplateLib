@@ -1,12 +1,20 @@
 PODS:
-  - AppTemplateLib (0.0.2)
+  - AppTemplateLib (0.0.4):
+    - AppTemplateLib/Model (= 0.0.4)
+    - AppTemplateLib/UI (= 0.0.4)
+    - AppTemplateLib/Utility (= 0.0.4)
+  - AppTemplateLib/Model (0.0.4):
+    - AppTemplateLib/Utility
+  - AppTemplateLib/UI (0.0.4):
+    - AppTemplateLib/Utility
+  - AppTemplateLib/Utility (0.0.4)
 
 DEPENDENCIES:
-  - AppTemplateLib (= 0.0.2)
+  - AppTemplateLib (= 0.0.4)
 
 SPEC CHECKSUMS:
-  AppTemplateLib: a106fccf631732c67bb3e4c2e20fdfe7f92203d5
+  AppTemplateLib: e1808062fce28123730d6d3f57c724c259722868
 
-PODFILE CHECKSUM: 17251b57a14674b65fe58d7dded01a5c6b8389b2
+PODFILE CHECKSUM: 6e902dca99b2f1815d80e77d94fe753bf3b55986
 
 COCOAPODS: 1.0.1
