@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "AppTemplateLib-ffmpeg"
   s.version      = "0.0.2"
   s.summary      = "AppTemplateLib for quick start."
-  s.homepage     = "https://github.com/linzhiman/AppTemplateLib"
+  s.homepage     = "https://github.com/linzhiman/ffmpeg"
   s.license      = { :type => "MIT", :file => "ffmpeg-0.0.2/LICENSE" }
   s.author             = { "linzhiman" => "154298785@qq.com" }
   s.platform     = :ios, "8.0"
