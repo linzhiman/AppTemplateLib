@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ATLogProtocol.h"
+
+//Log
+
+typedef NS_ENUM(NSUInteger, ATLogLevel) {
+    ATLogLevel_Important,
+    ATLogLevel_Error,
+    ATLogLevel_Warn,
+    ATLogLevel_Info,
+    ATLogLevel_Verbose
+};
+
+@protocol ATLogProtocol <NSObject>
+
+@required - (void)logWithTag:(NSString *)tag level:(ATLogLevel)level function:(const char *)function file:(const char *)file line:(NSUInteger)line content:(NSString *)content;
+
+@end
+
+//Protocol
 
 @protocol ATModelConfigProtocol <NSObject>
 

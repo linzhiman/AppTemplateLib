@@ -7,6 +7,8 @@
 //
 
 #import "ATAppUtils.h"
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 @implementation ATAppUtils
 
@@ -30,6 +32,18 @@
 + (NSString *)deviceUUID
 {
     return [[UIDevice currentDevice].identifierForVendor UUIDString];
+}
+
++ (NSString *)carrierName
+{
+    CTTelephonyNetworkInfo *phoneInfo = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *phoneCarrier = [phoneInfo subscriberCellularProvider];
+    
+    NSString * carrierName = @"";
+    if ([phoneCarrier carrierName]) {
+        carrierName = [phoneCarrier carrierName];
+    }
+    return carrierName;
 }
 
 + (BOOL)deviceFlat

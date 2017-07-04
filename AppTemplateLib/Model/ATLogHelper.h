@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ATLogProtocol.h"
+#import "ATModelConfigProtocol.h"
 
 @interface ATLogHelper : NSObject
 

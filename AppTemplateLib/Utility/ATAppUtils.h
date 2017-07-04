@@ -16,6 +16,7 @@
 + (BOOL)deviceSystemVersionLessThan8;
 + (NSString *)deviceModel;
 + (NSString *)deviceUUID;
++ (NSString *)carrierName;
 + (BOOL)deviceFlat;
 + (BOOL)deviceUpsideDown;
 + (BOOL)deviceLandscape;

@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC3C086F1ED980FB00187ACA /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C086E1ED980FB00187ACA /* ATLogHelper.m */; };
 		DC3C08701ED981EA00187ACA /* ATFluidController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FA51EA4C8DE009168B7 /* ATFluidController.h */; };
-		DC3C08711ED981EA00187ACA /* ATLogProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */; };
-		DC3C08721ED981EA00187ACA /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC3C086D1ED980FB00187ACA /* ATLogHelper.h */; };
 		DC3C08731ED981EA00187ACA /* ATResourceLoader.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */; };
 		DC3C08741ED981EA00187ACA /* ATUserDefaults.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FAC1EA4C8DE009168B7 /* ATUserDefaults.h */; };
 		DC3C08751ED981EA00187ACA /* NSDictionary+JSONSafeGet.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FBC1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.h */; };
@@ -48,6 +45,20 @@
 		DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */; };
 		DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */; };
 		DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */; };
+		DCE91A931F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A8D1F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm */; };
+		DCE91A941F0B81A300B9E9B8 /* PinyinTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A8F1F0B81A300B9E9B8 /* PinyinTable.cpp */; };
+		DCE91A951F0B81A300B9E9B8 /* T9SearchEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A911F0B81A300B9E9B8 /* T9SearchEngine.cpp */; };
+		DCE91A9D1F0B81C300B9E9B8 /* ATComponentBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A971F0B81C300B9E9B8 /* ATComponentBase.m */; };
+		DCE91A9E1F0B81C300B9E9B8 /* ATComponentService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */; };
+		DCE91A9F1F0B81C300B9E9B8 /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */; };
+		DCE91AA21F0B81DD00B9E9B8 /* ATContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91AA01F0B81DD00B9E9B8 /* ATContainerViewController.m */; };
+		DCE91AA31F0B822900B9E9B8 /* ATSentenceSearchEngine.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A8C1F0B81A300B9E9B8 /* ATSentenceSearchEngine.h */; };
+		DCE91AA41F0B822900B9E9B8 /* ATComponentBase.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */; };
+		DCE91AA51F0B822900B9E9B8 /* ATComponentProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */; };
+		DCE91AA61F0B822900B9E9B8 /* ATComponentService.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */; };
+		DCE91AA71F0B822900B9E9B8 /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */; };
+		DCE91AA81F0B822900B9E9B8 /* ATContainerViewController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91AA11F0B81DD00B9E9B8 /* ATContainerViewController.h */; };
+		DCE91AA91F0B822900B9E9B8 /* ATModelDialogView.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,9 +68,14 @@
 			dstPath = include/yysdkwrapper;
 			dstSubfolderSpec = 16;
 			files = (
+				DCE91AA31F0B822900B9E9B8 /* ATSentenceSearchEngine.h in Copy Files */,
+				DCE91AA41F0B822900B9E9B8 /* ATComponentBase.h in Copy Files */,
+				DCE91AA51F0B822900B9E9B8 /* ATComponentProtocol.h in Copy Files */,
+				DCE91AA61F0B822900B9E9B8 /* ATComponentService.h in Copy Files */,
+				DCE91AA71F0B822900B9E9B8 /* ATLogHelper.h in Copy Files */,
+				DCE91AA81F0B822900B9E9B8 /* ATContainerViewController.h in Copy Files */,
+				DCE91AA91F0B822900B9E9B8 /* ATModelDialogView.h in Copy Files */,
 				DC3C08701ED981EA00187ACA /* ATFluidController.h in Copy Files */,
-				DC3C08711ED981EA00187ACA /* ATLogProtocol.h in Copy Files */,
-				DC3C08721ED981EA00187ACA /* ATLogHelper.h in Copy Files */,
 				DC3C08731ED981EA00187ACA /* ATResourceLoader.h in Copy Files */,
 				DC3C08741ED981EA00187ACA /* ATUserDefaults.h in Copy Files */,
 				DC3C08751ED981EA00187ACA /* NSDictionary+JSONSafeGet.h in Copy Files */,
@@ -83,9 +99,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogProtocol.h; sourceTree = "<group>"; };
-		DC3C086D1ED980FB00187ACA /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
-		DC3C086E1ED980FB00187ACA /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
 		DC400F631EC0691C0091F44F /* ATHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATHashUtils.h; sourceTree = "<group>"; };
 		DC400F641EC0691C0091F44F /* ATHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATHashUtils.m; sourceTree = "<group>"; };
 		DC400F651EC0691C0091F44F /* ATNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATNetworkInfo.m; sourceTree = "<group>"; };
@@ -135,6 +148,22 @@
 		DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATResourceLoader.h; sourceTree = "<group>"; };
 		DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDateUtils.h; sourceTree = "<group>"; };
 		DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDateUtils.m; sourceTree = "<group>"; };
+		DCE91A8C1F0B81A300B9E9B8 /* ATSentenceSearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATSentenceSearchEngine.h; sourceTree = "<group>"; };
+		DCE91A8D1F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ATSentenceSearchEngine.mm; sourceTree = "<group>"; };
+		DCE91A8E1F0B81A300B9E9B8 /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		DCE91A8F1F0B81A300B9E9B8 /* PinyinTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PinyinTable.cpp; sourceTree = "<group>"; };
+		DCE91A901F0B81A300B9E9B8 /* PinyinTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinTable.h; sourceTree = "<group>"; };
+		DCE91A911F0B81A300B9E9B8 /* T9SearchEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = T9SearchEngine.cpp; sourceTree = "<group>"; };
+		DCE91A921F0B81A300B9E9B8 /* T9SearchEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T9SearchEngine.h; sourceTree = "<group>"; };
+		DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComponentProtocol.h; sourceTree = "<group>"; };
+		DCE91A971F0B81C300B9E9B8 /* ATComponentBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATComponentBase.m; sourceTree = "<group>"; };
+		DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComponentBase.h; sourceTree = "<group>"; };
+		DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATComponentService.m; sourceTree = "<group>"; };
+		DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComponentService.h; sourceTree = "<group>"; };
+		DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
+		DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
+		DCE91AA01F0B81DD00B9E9B8 /* ATContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContainerViewController.m; sourceTree = "<group>"; };
+		DCE91AA11F0B81DD00B9E9B8 /* ATContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContainerViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,22 +206,19 @@
 		DC503FA21EA4C8DE009168B7 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */,
-				DC400F631EC0691C0091F44F /* ATHashUtils.h */,
-				DC400F641EC0691C0091F44F /* ATHashUtils.m */,
-				DC400F651EC0691C0091F44F /* ATNetworkInfo.m */,
-				DC400F661EC0691C0091F44F /* ATNetworkInfo.h */,
 				DC503FA31EA4C8DE009168B7 /* ATAppUtils.h */,
 				DC503FA41EA4C8DE009168B7 /* ATAppUtils.m */,
 				DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */,
 				DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */,
 				DC503FA51EA4C8DE009168B7 /* ATFluidController.h */,
 				DC503FA61EA4C8DE009168B7 /* ATFluidController.m */,
-				DC3C086C1ED9805F00187ACA /* ATLogProtocol.h */,
-				DC3C086D1ED980FB00187ACA /* ATLogHelper.h */,
-				DC3C086E1ED980FB00187ACA /* ATLogHelper.m */,
+				DC503FA71EA4C8DE009168B7 /* ATGlobalMacro.h */,
+				DC400F631EC0691C0091F44F /* ATHashUtils.h */,
+				DC400F641EC0691C0091F44F /* ATHashUtils.m */,
 				DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */,
 				DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */,
+				DC400F661EC0691C0091F44F /* ATNetworkInfo.h */,
+				DC400F651EC0691C0091F44F /* ATNetworkInfo.m */,
 				DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */,
 				DC503FAB1EA4C8DE009168B7 /* ATNotificationUtils.m */,
 				DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */,
@@ -202,6 +228,7 @@
 				DC503FAE1EA4C8DE009168B7 /* Http */,
 				DC503FBC1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.h */,
 				DC503FBD1EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m */,
+				DCE91A8B1F0B81A300B9E9B8 /* Search */,
 				DC503FBE1EA4C8DE009168B7 /* WebView */,
 			);
 			path = Utility;
@@ -242,6 +269,13 @@
 			children = (
 				DC503FCA1EA4C8DE009168B7 /* ATAppModel.h */,
 				DC503FCB1EA4C8DE009168B7 /* ATAppModel.m */,
+				DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */,
+				DCE91A971F0B81C300B9E9B8 /* ATComponentBase.m */,
+				DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */,
+				DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */,
+				DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */,
+				DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */,
+				DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */,
 				DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */,
 				DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */,
 				DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */,
@@ -256,10 +290,26 @@
 		DC503FD71EA4C8DE009168B7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DCE91AA11F0B81DD00B9E9B8 /* ATContainerViewController.h */,
+				DCE91AA01F0B81DD00B9E9B8 /* ATContainerViewController.m */,
 				DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */,
 				DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		DCE91A8B1F0B81A300B9E9B8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DCE91A8C1F0B81A300B9E9B8 /* ATSentenceSearchEngine.h */,
+				DCE91A8D1F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm */,
+				DCE91A8E1F0B81A300B9E9B8 /* base.h */,
+				DCE91A8F1F0B81A300B9E9B8 /* PinyinTable.cpp */,
+				DCE91A901F0B81A300B9E9B8 /* PinyinTable.h */,
+				DCE91A911F0B81A300B9E9B8 /* T9SearchEngine.cpp */,
+				DCE91A921F0B81A300B9E9B8 /* T9SearchEngine.h */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +370,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */,
-				DC3C086F1ED980FB00187ACA /* ATLogHelper.m in Sources */,
 				DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */,
 				DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */,
 				DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */,
@@ -328,17 +377,24 @@
 				DC503FDA1EA4C8DE009168B7 /* ATAppUtils.m in Sources */,
 				DC503FE11EA4C8DE009168B7 /* ATHttpPost.m in Sources */,
 				DC503FE31EA4C8DE009168B7 /* ATHttpTask.m in Sources */,
+				DCE91A9E1F0B81C300B9E9B8 /* ATComponentService.m in Sources */,
 				DC503FE01EA4C8DE009168B7 /* ATHttpMultipartPost.m in Sources */,
 				DC503FE41EA4C8DE009168B7 /* ATHttpUtils.m in Sources */,
 				DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */,
+				DCE91A931F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm in Sources */,
+				DCE91A951F0B81A300B9E9B8 /* T9SearchEngine.cpp in Sources */,
 				DC503FE21EA4C8DE009168B7 /* ATHttpQueue.m in Sources */,
+				DCE91A9D1F0B81C300B9E9B8 /* ATComponentBase.m in Sources */,
 				DC503FDD1EA4C8DE009168B7 /* ATNotificationUtils.m in Sources */,
 				DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */,
 				DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */,
 				DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */,
+				DCE91A9F1F0B81C300B9E9B8 /* ATLogHelper.m in Sources */,
 				DC503FDC1EA4C8DE009168B7 /* ATImageUtils.m in Sources */,
 				DC503FDB1EA4C8DE009168B7 /* ATFluidController.m in Sources */,
+				DCE91A941F0B81A300B9E9B8 /* PinyinTable.cpp in Sources */,
 				DC503FDF1EA4C8DE009168B7 /* ATHttpGet.m in Sources */,
+				DCE91AA21F0B81DD00B9E9B8 /* ATContainerViewController.m in Sources */,
 				DC503FE91EA4C8DE009168B7 /* ATAppModel.m in Sources */,
 				DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */,
 			);

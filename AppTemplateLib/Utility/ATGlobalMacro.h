@@ -158,7 +158,9 @@
 
 #define ATScreenShort MIN(ATScreenHeight, ATScreenWidth)
 #define ATScreenLong MAX(ATScreenHeight, ATScreenWidth)
+#define ATScreenScale ([UIScreen mainScreen].scale)
 
+#define ATStatusBarHeight 20
 
 //System
 #define ATSystemAdvanceThan(systemOS) ([[UIDevice currentDevice].systemVersion floatValue] >= systemOS)
@@ -172,5 +174,15 @@
 //Delay
 #define ATDelay(sec, block) \
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(sec * NSEC_PER_SEC)), dispatch_get_main_queue(), block);
+
+
+//font
+#define ATMediumFont(fontSize) \
+    ATSystemLessThan(8.2) \
+    ? [UIFont fontWithName:@"HelveticaNeue-Medium" size:fontSize] \
+    : [UIFont systemFontOfSize:fontSize weight:UIFontWeightMedium]
+
+#define ATMediumFontFor(label, fontSize) \
+    label.font = ATMediumFont(fontSize)
 
 

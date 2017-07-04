@@ -18,4 +18,6 @@
 
 + (NSArray *)loadNibNamed:(NSString *)name owner:(id)owner withBundleName:(NSString *)bundleName;
 
++ (NSBundle *)bundleNamed:(NSString *)bundleName;
+
 @end
