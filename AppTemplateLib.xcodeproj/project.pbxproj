@@ -50,15 +50,14 @@
 		DCE91A951F0B81A300B9E9B8 /* T9SearchEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A911F0B81A300B9E9B8 /* T9SearchEngine.cpp */; };
 		DCE91A9D1F0B81C300B9E9B8 /* ATComponentBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A971F0B81C300B9E9B8 /* ATComponentBase.m */; };
 		DCE91A9E1F0B81C300B9E9B8 /* ATComponentService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */; };
-		DCE91A9F1F0B81C300B9E9B8 /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */; };
 		DCE91AA21F0B81DD00B9E9B8 /* ATContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91AA01F0B81DD00B9E9B8 /* ATContainerViewController.m */; };
 		DCE91AA31F0B822900B9E9B8 /* ATSentenceSearchEngine.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A8C1F0B81A300B9E9B8 /* ATSentenceSearchEngine.h */; };
 		DCE91AA41F0B822900B9E9B8 /* ATComponentBase.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */; };
 		DCE91AA51F0B822900B9E9B8 /* ATComponentProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */; };
 		DCE91AA61F0B822900B9E9B8 /* ATComponentService.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */; };
-		DCE91AA71F0B822900B9E9B8 /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */; };
 		DCE91AA81F0B822900B9E9B8 /* ATContainerViewController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91AA11F0B81DD00B9E9B8 /* ATContainerViewController.h */; };
 		DCE91AA91F0B822900B9E9B8 /* ATModelDialogView.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */; };
+		DCE91AAD1F0B892B00B9E9B8 /* ATLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE91AAB1F0B892B00B9E9B8 /* ATLogHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,7 +71,6 @@
 				DCE91AA41F0B822900B9E9B8 /* ATComponentBase.h in Copy Files */,
 				DCE91AA51F0B822900B9E9B8 /* ATComponentProtocol.h in Copy Files */,
 				DCE91AA61F0B822900B9E9B8 /* ATComponentService.h in Copy Files */,
-				DCE91AA71F0B822900B9E9B8 /* ATLogHelper.h in Copy Files */,
 				DCE91AA81F0B822900B9E9B8 /* ATContainerViewController.h in Copy Files */,
 				DCE91AA91F0B822900B9E9B8 /* ATModelDialogView.h in Copy Files */,
 				DC3C08701ED981EA00187ACA /* ATFluidController.h in Copy Files */,
@@ -160,10 +158,11 @@
 		DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComponentBase.h; sourceTree = "<group>"; };
 		DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATComponentService.m; sourceTree = "<group>"; };
 		DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATComponentService.h; sourceTree = "<group>"; };
-		DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
-		DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
 		DCE91AA01F0B81DD00B9E9B8 /* ATContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATContainerViewController.m; sourceTree = "<group>"; };
 		DCE91AA11F0B81DD00B9E9B8 /* ATContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATContainerViewController.h; sourceTree = "<group>"; };
+		DCE91AAA1F0B892B00B9E9B8 /* ATLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogHelper.h; sourceTree = "<group>"; };
+		DCE91AAB1F0B892B00B9E9B8 /* ATLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLogHelper.m; sourceTree = "<group>"; };
+		DCE91AAC1F0B892B00B9E9B8 /* ATLogProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLogProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +216,9 @@
 				DC400F641EC0691C0091F44F /* ATHashUtils.m */,
 				DC503FA81EA4C8DE009168B7 /* ATImageUtils.h */,
 				DC503FA91EA4C8DE009168B7 /* ATImageUtils.m */,
+				DCE91AAA1F0B892B00B9E9B8 /* ATLogHelper.h */,
+				DCE91AAB1F0B892B00B9E9B8 /* ATLogHelper.m */,
+				DCE91AAC1F0B892B00B9E9B8 /* ATLogProtocol.h */,
 				DC400F661EC0691C0091F44F /* ATNetworkInfo.h */,
 				DC400F651EC0691C0091F44F /* ATNetworkInfo.m */,
 				DC503FAA1EA4C8DE009168B7 /* ATNotificationUtils.h */,
@@ -274,8 +276,6 @@
 				DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */,
 				DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */,
 				DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */,
-				DCE91A9B1F0B81C300B9E9B8 /* ATLogHelper.h */,
-				DCE91A9C1F0B81C300B9E9B8 /* ATLogHelper.m */,
 				DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */,
 				DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */,
 				DC503FD01EA4C8DE009168B7 /* ATModelConfigProtocol.h */,
@@ -389,7 +389,6 @@
 				DC503FE51EA4C8DE009168B7 /* NSDictionary+JSONSafeGet.m in Sources */,
 				DC400F671EC0691C0091F44F /* ATHashUtils.m in Sources */,
 				DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */,
-				DCE91A9F1F0B81C300B9E9B8 /* ATLogHelper.m in Sources */,
 				DC503FDC1EA4C8DE009168B7 /* ATImageUtils.m in Sources */,
 				DC503FDB1EA4C8DE009168B7 /* ATFluidController.m in Sources */,
 				DCE91A941F0B81A300B9E9B8 /* PinyinTable.cpp in Sources */,
@@ -397,6 +396,7 @@
 				DCE91AA21F0B81DD00B9E9B8 /* ATContainerViewController.m in Sources */,
 				DC503FE91EA4C8DE009168B7 /* ATAppModel.m in Sources */,
 				DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */,
+				DCE91AAD1F0B892B00B9E9B8 /* ATLogHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
