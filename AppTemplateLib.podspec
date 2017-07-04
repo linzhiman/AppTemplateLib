@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AppTemplateLib"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "AppTemplateLib for quick start."
   s.homepage     = "https://github.com/linzhiman/AppTemplateLib"
   s.license      = "MIT"
