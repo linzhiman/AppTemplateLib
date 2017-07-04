@@ -1,20 +1,24 @@
 PODS:
-  - AppTemplateLib (0.0.4):
-    - AppTemplateLib/Model (= 0.0.4)
-    - AppTemplateLib/UI (= 0.0.4)
-    - AppTemplateLib/Utility (= 0.0.4)
-  - AppTemplateLib/Model (0.0.4):
+  - AppTemplateLib (0.0.8):
+    - AppTemplateLib/Model (= 0.0.8)
+    - AppTemplateLib/UI (= 0.0.8)
+    - AppTemplateLib/Utility (= 0.0.8)
+  - AppTemplateLib/Model (0.0.8):
     - AppTemplateLib/Utility
-  - AppTemplateLib/UI (0.0.4):
+  - AppTemplateLib/UI (0.0.8):
     - AppTemplateLib/Utility
-  - AppTemplateLib/Utility (0.0.4)
+  - AppTemplateLib/Utility (0.0.8)
 
 DEPENDENCIES:
-  - AppTemplateLib (= 0.0.4)
+  - AppTemplateLib (from `https://github.com/linzhiman/AppTemplateLib/blob/master/AppTemplateLib.podspec?raw=1`)
+
+EXTERNAL SOURCES:
+  AppTemplateLib:
+    :podspec: https://github.com/linzhiman/AppTemplateLib/blob/master/AppTemplateLib.podspec?raw=1
 
 SPEC CHECKSUMS:
-  AppTemplateLib: e1808062fce28123730d6d3f57c724c259722868
+  AppTemplateLib: 3d03303e8c1f42c3f7a67cdf81c52bedd97f8e18
 
-PODFILE CHECKSUM: 6e902dca99b2f1815d80e77d94fe753bf3b55986
+PODFILE CHECKSUM: 880bd366b9a0089eb07b6142e706b5cdc7e283ff
 
 COCOAPODS: 1.0.1
