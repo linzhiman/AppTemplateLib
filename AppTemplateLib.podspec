@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AppTemplateLib"
-  s.version      = "0.0.6"
+  s.version      = "0.0.8"
   s.summary      = "AppTemplateLib for quick start."
   s.homepage     = "https://github.com/linzhiman/AppTemplateLib"
   s.license      = "MIT"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/linzhiman/AppTemplateLib.git", :tag => "#{s.version}" }
   s.default_subspecs = "Utility", "Model", "UI"
   s.subspec 'Utility' do |sp|
-      sp.source_files = "AppTemplateLib/Utility/**/*.{h,m}"
+      sp.source_files = "AppTemplateLib/Utility/**/*.{h,m,cpp}"
   end
   s.subspec 'Model' do |sp|
       sp.source_files = "AppTemplateLib/Model/**/*.{h,m}"

@@ -14,7 +14,7 @@ typedef const WCHAR*	LPCWSTR;
 #include <string>
 
 #include <vector>
-#include <bits/char_traits.h>
+
 namespace std {
     //typedef basic_string<WCHAR>  w16string;
     template <class CharType> class basic_string_v {
