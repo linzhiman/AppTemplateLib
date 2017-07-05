@@ -19,7 +19,7 @@
         return [[self alloc] init]; \
     } \
     \
-    - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument \
+    - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument caller:(ATComponentCaller *)caller \
     { \
         NSDictionary *aDictionary = nil; \
         do { \
@@ -36,9 +36,16 @@
         return aDictionary; \
     }
 
+@interface ATComponentCaller : NSObject
+@property (nonatomic, assign) NSInteger seqID;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *callbackCommand;
++ (ATComponentCaller *)callerWithName:(NSString *)name callbackCommand:(NSString *)callbackCommand;
+@end
+
 @protocol ATComponentProtocol <NSObject>
 
 + (id<ATComponentProtocol>)at_createComponentInstance;
-- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument;
+- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument caller:(ATComponentCaller *)caller;
 
 @end

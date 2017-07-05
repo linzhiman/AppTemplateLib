@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 apptemplate. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "ATNotificationUtils.h"
 #import "ATLogHelper.h"
 
