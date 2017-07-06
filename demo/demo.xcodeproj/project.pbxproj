@@ -14,6 +14,10 @@
 		DC3C082B1ED9280900187ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3C08291ED9280900187ACA /* Main.storyboard */; };
 		DC3C082D1ED9280900187ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3C082C1ED9280900187ACA /* Assets.xcassets */; };
 		DC3C08301ED9280900187ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3C082E1ED9280900187ACA /* LaunchScreen.storyboard */; };
+		DC6101CC1F0DE2CE00A5B891 /* ATComponentService+MainComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6101CB1F0DE2CE00A5B891 /* ATComponentService+MainComponent.m */; };
+		DC6101CF1F0DE2E000A5B891 /* ATComponentService+AComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6101CE1F0DE2E000A5B891 /* ATComponentService+AComponent.m */; };
+		DC6101D21F0DE35200A5B891 /* AComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6101D11F0DE35200A5B891 /* AComponent.m */; };
+		DC6101D51F0DE36200A5B891 /* MainComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6101D41F0DE36200A5B891 /* MainComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,17 @@
 		DC3C082C1ED9280900187ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3C082F1ED9280900187ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC3C08311ED9280900187ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6101C71F0DE22400A5B891 /* ComponentInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentInterface.h; sourceTree = "<group>"; };
+		DC6101C81F0DE25900A5B891 /* AComponentDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AComponentDefine.h; sourceTree = "<group>"; };
+		DC6101C91F0DE26D00A5B891 /* MainComponentDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainComponentDefine.h; sourceTree = "<group>"; };
+		DC6101CA1F0DE2CE00A5B891 /* ATComponentService+MainComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATComponentService+MainComponent.h"; sourceTree = "<group>"; };
+		DC6101CB1F0DE2CE00A5B891 /* ATComponentService+MainComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATComponentService+MainComponent.m"; sourceTree = "<group>"; };
+		DC6101CD1F0DE2E000A5B891 /* ATComponentService+AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ATComponentService+AComponent.h"; sourceTree = "<group>"; };
+		DC6101CE1F0DE2E000A5B891 /* ATComponentService+AComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ATComponentService+AComponent.m"; sourceTree = "<group>"; };
+		DC6101D01F0DE35200A5B891 /* AComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AComponent.h; sourceTree = "<group>"; };
+		DC6101D11F0DE35200A5B891 /* AComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AComponent.m; sourceTree = "<group>"; };
+		DC6101D31F0DE36200A5B891 /* MainComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainComponent.h; sourceTree = "<group>"; };
+		DC6101D41F0DE36200A5B891 /* MainComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,9 @@
 		DC3C081F1ED9280900187ACA /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				DC6101C61F0DE20B00A5B891 /* ComponentInterface */,
+				DC6101C41F0DE20400A5B891 /* AComponent */,
+				DC6101C51F0DE20400A5B891 /* MainComponent */,
 				DC3C08231ED9280900187ACA /* AppDelegate.h */,
 				DC3C08241ED9280900187ACA /* AppDelegate.m */,
 				DC3C08261ED9280900187ACA /* ViewController.h */,
@@ -101,6 +119,38 @@
 				DC3C08211ED9280900187ACA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6101C41F0DE20400A5B891 /* AComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DC6101CD1F0DE2E000A5B891 /* ATComponentService+AComponent.h */,
+				DC6101CE1F0DE2E000A5B891 /* ATComponentService+AComponent.m */,
+				DC6101C81F0DE25900A5B891 /* AComponentDefine.h */,
+				DC6101D01F0DE35200A5B891 /* AComponent.h */,
+				DC6101D11F0DE35200A5B891 /* AComponent.m */,
+			);
+			path = AComponent;
+			sourceTree = "<group>";
+		};
+		DC6101C51F0DE20400A5B891 /* MainComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DC6101CA1F0DE2CE00A5B891 /* ATComponentService+MainComponent.h */,
+				DC6101CB1F0DE2CE00A5B891 /* ATComponentService+MainComponent.m */,
+				DC6101C91F0DE26D00A5B891 /* MainComponentDefine.h */,
+				DC6101D31F0DE36200A5B891 /* MainComponent.h */,
+				DC6101D41F0DE36200A5B891 /* MainComponent.m */,
+			);
+			path = MainComponent;
+			sourceTree = "<group>";
+		};
+		DC6101C61F0DE20B00A5B891 /* ComponentInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DC6101C71F0DE22400A5B891 /* ComponentInterface.h */,
+			);
+			path = ComponentInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3C08281ED9280900187ACA /* ViewController.m in Sources */,
+				DC6101CC1F0DE2CE00A5B891 /* ATComponentService+MainComponent.m in Sources */,
 				DC3C08251ED9280900187ACA /* AppDelegate.m in Sources */,
+				DC6101D51F0DE36200A5B891 /* MainComponent.m in Sources */,
+				DC6101D21F0DE35200A5B891 /* AComponent.m in Sources */,
+				DC6101CF1F0DE2E000A5B891 /* ATComponentService+AComponent.m in Sources */,
 				DC3C08221ED9280900187ACA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +438,7 @@
 				DC3C08361ED9280900187ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

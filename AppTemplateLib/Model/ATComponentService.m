@@ -105,7 +105,7 @@ static NSMapTable *ComponentClassMap() {
 
 + (BOOL)hasError:(NSDictionary *)callResult
 {
-    return !callResult[ATComponentService_ErrorCode];
+    return callResult[ATComponentService_ErrorCode] != nil;
 }
 
 @end
