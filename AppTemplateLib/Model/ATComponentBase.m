@@ -21,12 +21,6 @@
     return nil;
 }
 
-- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Caller
-{
-    NSAssert(0, @"Should implement at_callComponentWithCommand:argument:caller:");
-    return nil;
-}
-
 - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Callback
 {
     NSAssert(0, @"Should implement at_callComponentWithCommand:argument:callback:");

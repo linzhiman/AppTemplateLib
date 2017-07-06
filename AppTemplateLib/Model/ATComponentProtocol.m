@@ -8,14 +8,4 @@
 
 #import "ATComponentProtocol.h"
 
-@implementation ATComponentCaller
 
-+ (ATComponentCaller *)callerWithName:(NSString *)name callbackCommand:(NSString *)callbackCommand
-{
-    ATComponentCaller *caller = [ATComponentCaller new];
-    caller.name = name;
-    caller.callbackCommand = callbackCommand;
-    return caller;
-}
-
-@end

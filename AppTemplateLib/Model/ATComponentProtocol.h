@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define ATComponentArgument_Callback callback:(ATComponentCallback)callback
+
 #define ATComponentBaseImplementationBegin(atName) \
     + (void)registerComponent \
     { \
@@ -19,9 +21,9 @@
         return [[self alloc] init]; \
     } \
     \
-    - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument caller:(ATComponentCaller *)caller \
+    - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Callback \
     { \
-        NSDictionary *aDictionary = nil; \
+        NSDictionary *callResult = nil; \
         do { \
 
 #define ATComponentBaseImplementationHandlerWithCommandBegin(aCommand) \
@@ -33,26 +35,14 @@
 
 #define ATComponentBaseImplementationEnd \
         } while(0); \
-        return aDictionary; \
+        return callResult; \
     }
 
-
-#define ATComponentArgument_Caller caller:(ATComponentCaller *)caller
-#define ATComponentArgument_Callback callback:(ATComponentCallback)callback
-
 typedef void (^ATComponentCallback)(NSString *command, NSDictionary *argument);
-
-@interface ATComponentCaller : NSObject
-@property (nonatomic, assign) NSInteger seqID;
-@property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSString *callbackCommand;
-+ (ATComponentCaller *)callerWithName:(NSString *)name callbackCommand:(NSString *)callbackCommand;
-@end
 
 @protocol ATComponentProtocol <NSObject>
 
 + (id<ATComponentProtocol>)at_createComponentInstance;
-- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Caller;
 - (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Callback;
 
 @end
