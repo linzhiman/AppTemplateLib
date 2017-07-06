@@ -43,6 +43,9 @@
 		DC503FEB1EA4C8DE009168B7 /* ATModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FCF1EA4C8DE009168B7 /* ATModelBase.m */; };
 		DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD21EA4C8DE009168B7 /* ATModelManager.m */; };
 		DC503FEE1EA4C8DE009168B7 /* ATModelDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */; };
+		DC6101C11F0DE04E00A5B891 /* ATComponentProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6101C01F0DE04E00A5B891 /* ATComponentProtocol.m */; };
+		DC6101C21F0DE07E00A5B891 /* ATLogHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91AAA1F0B892B00B9E9B8 /* ATLogHelper.h */; };
+		DC6101C31F0DE07E00A5B891 /* ATLogProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = DCE91AAC1F0B892B00B9E9B8 /* ATLogProtocol.h */; };
 		DC80385F1EB9CAF300F8D077 /* ATResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */; };
 		DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB84A2E1EB0938800C30A29 /* ATDateUtils.m */; };
 		DCE91A931F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCE91A8D1F0B81A300B9E9B8 /* ATSentenceSearchEngine.mm */; };
@@ -67,6 +70,8 @@
 			dstPath = include/yysdkwrapper;
 			dstSubfolderSpec = 16;
 			files = (
+				DC6101C21F0DE07E00A5B891 /* ATLogHelper.h in Copy Files */,
+				DC6101C31F0DE07E00A5B891 /* ATLogProtocol.h in Copy Files */,
 				DCE91AA31F0B822900B9E9B8 /* ATSentenceSearchEngine.h in Copy Files */,
 				DCE91AA41F0B822900B9E9B8 /* ATComponentBase.h in Copy Files */,
 				DCE91AA51F0B822900B9E9B8 /* ATComponentProtocol.h in Copy Files */,
@@ -142,6 +147,7 @@
 		DC503FD41EA4C8DE009168B7 /* ATModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelProtocol.h; sourceTree = "<group>"; };
 		DC503FD81EA4C8DE009168B7 /* ATModelDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATModelDialogView.h; sourceTree = "<group>"; };
 		DC503FD91EA4C8DE009168B7 /* ATModelDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATModelDialogView.m; sourceTree = "<group>"; };
+		DC6101C01F0DE04E00A5B891 /* ATComponentProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATComponentProtocol.m; sourceTree = "<group>"; };
 		DC80385D1EB9CAF300F8D077 /* ATResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATResourceLoader.m; sourceTree = "<group>"; };
 		DC80385E1EB9CAF300F8D077 /* ATResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATResourceLoader.h; sourceTree = "<group>"; };
 		DCB84A2D1EB0938800C30A29 /* ATDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDateUtils.h; sourceTree = "<group>"; };
@@ -274,6 +280,7 @@
 				DCE91A981F0B81C300B9E9B8 /* ATComponentBase.h */,
 				DCE91A971F0B81C300B9E9B8 /* ATComponentBase.m */,
 				DCE91A961F0B81C300B9E9B8 /* ATComponentProtocol.h */,
+				DC6101C01F0DE04E00A5B891 /* ATComponentProtocol.m */,
 				DCE91A9A1F0B81C300B9E9B8 /* ATComponentService.h */,
 				DCE91A991F0B81C300B9E9B8 /* ATComponentService.m */,
 				DC503FCE1EA4C8DE009168B7 /* ATModelBase.h */,
@@ -371,6 +378,7 @@
 			files = (
 				DC503FE61EA4C8DE009168B7 /* ATWebViewJavaScriptBridge.m in Sources */,
 				DC400F681EC0691C0091F44F /* ATNetworkInfo.m in Sources */,
+				DC6101C11F0DE04E00A5B891 /* ATComponentProtocol.m in Sources */,
 				DCB84A2F1EB0938800C30A29 /* ATDateUtils.m in Sources */,
 				DC503FEC1EA4C8DE009168B7 /* ATModelManager.m in Sources */,
 				DC503FDE1EA4C8DE009168B7 /* ATUserDefaults.m in Sources */,
