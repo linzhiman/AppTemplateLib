@@ -73,7 +73,17 @@ static NSMapTable *ComponentClassMap() {
     return [self callComponentWithName:name command:command argument:argument caller:[ATComponentCaller callerWithName:@"unknown" callbackCommand:nil]];
 }
 
-+ (NSDictionary *)callComponentWithName:(NSString *)name command:(NSString *)command argument:(NSDictionary *)argument caller:(ATComponentCaller *)caller
++ (NSDictionary *)callComponentWithName:(NSString *)name command:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Caller
+{
+    return [self callComponentWithName:name command:command argument:argument caller:caller callback:nil];
+}
+
++ (NSDictionary *)callComponentWithName:(NSString *)name command:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Callback
+{
+    return [self callComponentWithName:name command:command argument:argument caller:nil callback:callback];
+}
+
++ (NSDictionary *)callComponentWithName:(NSString *)name command:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Caller ATComponentArgument_Callback
 {
     id<ATComponentProtocol> anObject = [ComponentMap() objectForKey:name];
     if (!anObject) {
@@ -95,7 +105,13 @@ static NSMapTable *ComponentClassMap() {
         aDictionary = @{@"errorCode":@(100),@"errorMessage":[NSString stringWithFormat:@"No component named %@", name]};
     }
     else {
-        aDictionary = [anObject at_callComponentWithCommand:command argument:argument caller:caller];
+        if (caller) {
+            aDictionary = [anObject at_callComponentWithCommand:command argument:argument caller:caller];
+        }
+        else {
+            aDictionary = [anObject at_callComponentWithCommand:command argument:argument callback:callback];
+        }
+        
         if (!aDictionary) {
             aDictionary = @{@"errorCode":@(200),@"errorMessage":[NSString stringWithFormat:@"Unsupported command named %@ in %@", command, name]};
         }

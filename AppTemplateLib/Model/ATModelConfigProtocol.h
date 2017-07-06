@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ATLogProtocol.h"
 
-//Protocol
-
 @protocol ATModelConfigProtocol <NSObject>
 
 @required - (void)initCustomModel:(NSDictionary *)launchOptions;

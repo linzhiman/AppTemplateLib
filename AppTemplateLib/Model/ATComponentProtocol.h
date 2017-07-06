@@ -24,7 +24,7 @@
         NSDictionary *aDictionary = nil; \
         do { \
 
-#define ATComponentBaseImplementationHandlerWithCommand(aCommand) \
+#define ATComponentBaseImplementationHandlerWithCommandBegin(aCommand) \
             if ([command isEqualToString:aCommand]) {
 
 #define ATComponentBaseImplementationHandlerWithCommandEnd \
@@ -36,6 +36,12 @@
         return aDictionary; \
     }
 
+
+#define ATComponentArgument_Caller caller:(ATComponentCaller *)caller
+#define ATComponentArgument_Callback callback:(ATComponentCallback)callback
+
+typedef void (^ATComponentCallback)(NSString *command, NSDictionary *argument);
+
 @interface ATComponentCaller : NSObject
 @property (nonatomic, assign) NSInteger seqID;
 @property (nonatomic, strong) NSString *name;
@@ -46,6 +52,7 @@
 @protocol ATComponentProtocol <NSObject>
 
 + (id<ATComponentProtocol>)at_createComponentInstance;
-- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument caller:(ATComponentCaller *)caller;
+- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Caller;
+- (NSDictionary *)at_callComponentWithCommand:(NSString *)command argument:(NSDictionary *)argument ATComponentArgument_Callback;
 
 @end
